@@ -1,0 +1,36 @@
+body {
+    background-color: #161616;
+}
+.ahmed {
+    font-size: 100px;
+}
+@media (min-width : 0px) and (max-width:950px) {
+    .logo {
+        padding-top: 15px;
+    }
+}
+@media (min-width : 1000px) and (max-width:5000px) {
+    #header {
+        padding-top: 1%;
+    }
+
+    #header .land {
+        padding-top: 1%;
+    }
+}
+@media (min-width : 951px) and (max-width:5000px) {
+    #image {
+        display: none;
+    }
+}
+.hoda img{
+    width: 35%;
+}
+@media (min-width : 0px) and (max-width:951px) {
+    .hoda img{
+       display: none;
+    }
+    .ahmed {
+        font-size: 80px;
+    }
+}
